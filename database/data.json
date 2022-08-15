@@ -1,0 +1,101 @@
+{
+	"customers": [
+		{
+			"id": 1,
+			"firstname": "John",
+			"lastname": "Doe",
+			"email": "john.doe@example.com",
+			"phone": "1234567",
+			"date_of_birth": "01-01-1990",
+			"address": "221B Baker Street, London",
+			"created_at": "2022-08-14T19:07:38.274Z",
+			"updated_at": "2022-08-14T19:07:38.274Z"
+		},
+		{
+			"id": 2,
+			"firstname": "Steven",
+			"lastname": "Brown",
+			"email": "steven.brown@example.com",
+			"phone": "7654321",
+			"date_of_birth": "02-02-1993",
+			"address": "315B Laker Street, London",
+			"created_at": "2022-08-14T19:07:38.274Z",
+			"updated_at": "2022-08-14T19:07:38.274Z"
+		},
+		{
+			"id": 3,
+			"firstname": "Alex",
+			"lastname": "Wilson",
+			"email": "alex.wilson@example.com",
+			"phone": "5463217",
+			"date_of_birth": "03-03-1995",
+			"address": "415B Caker Street, London",
+			"created_at": "2022-08-14T19:07:38.274Z",
+			"updated_at": "2022-08-14T19:07:38.274Z"
+		}
+	],
+	"books": [
+		{
+			"id": 1,
+			"isbn": "978-0393058000",
+			"title": "Sherlock Holmes",
+			"genre": "fictional detective",
+			"description": "Sherlock Holmes (/ˈʃɜːrlɒk ˈhoʊmz/) is a fictional detective created by British author Sir Arthur Conan Doyle. Referring to himself as a 'consulting detective' in the stories, Holmes is known for his proficiency with observation, deduction, forensic science and logical reasoning that borders on the fantastic, which he employs when investigating cases for a wide variety of clients, including Scotland Yard.",
+			"author": "Arthur Conan Doyle",
+			"publish_year": 2006,
+			"cover_photo_url": "https://images-na.ssl-images-amazon.com/images/I/91hJe52QzjL.jpg",
+			"created_at": "2022-08-14T19:07:38.274Z",
+			"updated_at": "2022-08-14T19:07:38.274Z"
+		},
+		{
+			"id": 2,
+			"isbn": "950-0393058000",
+			"title": "The Alchemist",
+			"genre": "adventure fiction",
+			"description": "The Alchemist is a classic novel in which a boy named Santiago embarks on a journey seeking treasure in the Egyptian pyramids after having a recurring dream about it and on the way meets mentors, falls in love, and most importantly, learns the true importance of who he is and how to improve himself and focus on what really matters in life.",
+			"author": "Paulo Coelho ",
+			"publish_year": 2002,
+			"cover_photo_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466865681l/25076674._SY475_.jpg",
+			"created_at": "2022-08-14T19:07:38.274Z",
+			"updated_at": "2022-08-14T19:07:38.274Z"
+		},
+		{
+			"id": 3,
+			"isbn": "985-0393058000",
+			"title": "Steve Jobs",
+			"genre": "biography",
+			"description": "Steve Jobs is the authorized self-titled biography of American business magnate and Apple co-founder Steve Jobs. The book was written at the request of Jobs by Walter Isaacson, a former executive at CNN and TIME who has written best-selling biographies of Benjamin Franklin and Albert Einstein.",
+			"author": "Walter Isaacson",
+			"publish_year": 2004,
+			"cover_photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8H21RYyWCi8Go6Px92DiUKg0EAo4zbSznEw&usqp=CAU",
+			"created_at": "2022-08-14T19:07:38.274Z",
+			"updated_at": "2022-08-14T21:05:48.333Z"
+		}
+	],
+	"rental_info": [
+		{
+			"customer_id": 1,
+			"book_id": 1,
+			"booked_day": "2022-05-22",
+			"returned_day": "2022-09-26",
+			"created_at": "2022-08-14T19:07:38.274Z",
+			"updated_at": "2022-08-14T19:07:38.274Z"
+		},
+		{
+			"customer_id": 1,
+			"book_id": 2,
+			"booked_day": "2022-05-22",
+			"returned_day": "2022-09-26",
+			"created_at": "2022-08-14T19:07:38.274Z",
+			"updated_at": "2022-08-14T19:07:38.274Z"
+		},
+		{
+			"customer_id": 2,
+			"book_id": 3,
+			"booked_day": "2022-05-22",
+			"returned_day": "2022-09-26",
+			"created_at": "2022-08-14T19:07:38.274Z",
+			"updated_at": "2022-08-14T19:07:38.274Z"
+		}
+	]
+}
